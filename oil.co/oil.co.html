@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jojes oil dealers</title>
+  <link rel="stylesheet" href="styling.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Jojes Oil Dealers</div>
+
+      <!-- Hamburger Menu -->
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class ="hero-content">
+    <h1>Jojes Oil Dealers</h1>
+    <p>Leading oil distributor providing reliable energy solutions for industries and communities in Kenya</p>
+    <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Jojes Oil Dealers is a leading provider of petroleum and energy solutions, committed to powering growth across industries. 
+      Our mission is to deliver high-quality products and services while maintaining sustainability and innovation in the energy sector.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Our Mission</h3>
+        <p>To fuel economic and social progress by delivering reliable, sustainable, and affordable energy solutions.</p>
+      </div>
+      <div class="card">
+        <h3>Our Vision</h3>
+        <p>To be the most trusted energy partner in Africa, driving innovation and clean energy adoption for a brighter future.</p>
+      </div>
+    </div>
+  </section>
+<!-- Hass Group Section -->
+<section id="hass" class="hass">
+  <div class="overlay">
+    <h2 class="fade-in">Jojes Oil Dealers</h2>
+    <h3 class="fade-in delay-1">Oil and Petroleum Company</h3>
+    <p class="fade-in delay-2">
+      Founded in 1997, Jojes Oil Dealers has become a leading regional oil marketing company in Africa. 
+      The company has heavily invested in the sourcing, transportation, storage, distribution, 
+      and marketing of diesel fuel, automotive gasoline, kerosene, jet fuel, Liquefied Petroleum Gas (LPG), 
+      and lubricants for industrial and automotive systems.
+    </p>
+
+    <div class="hass-stats">
+      <div class="stat fade-in delay-3">
+        <i class="fas fa-gas-pump"></i>
+        <h4>Throughput</h4>
+        <p><strong>1 Billion Litres</strong></p>
+      </div>
+      <div class="stat fade-in delay-4">
+        <i class="fas fa-users"></i>
+        <h4>Our Employees</h4>
+        <p><strong>1,500+</strong></p>
+      </div>
+    </div>
+
+    <div class="hass-highlight fade-in delay-5">
+      <h3>How We Built Jojes Oil Dealers</h3>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <p>We deliver top-tier energy and petroleum services with a focus on quality, efficiency, and sustainability.</p>
+
+    <div class="cards">
+      <div class="card service">
+        <div class="icon"><i class="fas fa-truck"></i></div>
+        <h3>Fuel Distribution</h3>
+        <p>Supplying premium fuels for commercial, industrial, and domestic needs.</p>
+      </div>
+      <div class="card service">
+        <div class="icon"><i class="fas fa-oil-can"></i></div>
+        <h3>Lubricants</h3>
+        <p>High-performance oils and lubricants designed to keep engines running smoothly.</p>
+      </div>
+      <div class="card service">
+        <div class="icon"><i class="fas fa-bolt"></i></div>
+        <h3>Energy Solutions</h3>
+        <p>Providing reliable power generation and sustainable renewable energy solutions.</p>
+      </div>
+      <div class="card service">
+        <div class="icon"><i class="fas fa-truck-moving"></i></div>
+        <h3>Logistics</h3>
+        <p>Efficient transportation, warehousing, and storage of petroleum products.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <p>Have questions or want to work with us? Fill out the form below and we’ll get back to you as soon as possible.</p>
+    <div class="form-group">
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Enter your message" required></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    </div>
+  </section>
+
+
+  <!-- Social Media Icons -->
+<h2 style="text-align: center;">Connect with us:</h2>
+  <div class="social-icons">
+    <a href="https://twitter.com/jojesoildealers" target="_blank">
+      <ion-icon name="logo-twitter"></ion-icon>
+    </a>
+    <a href="https://www.facebook.com/jojesoildealers" target="_blank">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </a>
+    <a href="https://www.instagram.com/jojesoildealers" target="_blank">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+    <a href="https://wa.me/1234567890" target="_blank">
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    </a>
+  </div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Jojes Oil Dealers. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript for Hamburger -->
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      menuToggle.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
